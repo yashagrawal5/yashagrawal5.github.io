@@ -730,17 +730,48 @@ His energy to make things happen was contagious and it helped us achieve great g
 <li>Tableau Analyst Certifcate by Tableau Software Inc  </li>
 <li>Machine  Learning and AI foundations by Microsoft. </li>
 <li>Etc...</li>
-            <section id="contact" class="contact section-bg">
+          <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>If you're interested in reaching out to me, I'd love to connect and work with you!</p>
+          
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-in">
 
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Chicago, IL 60616</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>yash.agr521@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 312 684 6967</p>
+              </div>
+
+             
+            </div>
+
+          </div>
+
+
+
+
+
+
+<div class="col-lg-4 col-md-4">
             <div class="contact-about">
               <h3>Minal</h3>
               <p>Connect with me on my social media accounts to stay updated with what I'm up to.</p>
@@ -754,44 +785,52 @@ His energy to make things happen was contagious and it helped us achieve great g
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4">
-            <div class="info">
-              <div class="d-flex align-items-center">
-                <i class="bi bi-geo-alt"></i>
-                <p>Chicago, IL</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
               </div>
-
-              <div class="d-flex align-items-center mt-4">
-                <i class="bi bi-envelope"></i>
-                <p>minal.vaity95@gmail.com</p>
-              </div>
-
-              <div class="d-flex align-items-center mt-4">
-                <i class="bi bi-phone"></i>
-                <p>+1 872 888 3497</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-8">
-            <form action="/" method="POST" class="php-email-form">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
-              <div class="form-group mt-3">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
               <div class="my-3">
-                
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button id = "submitButton" type="submit" class="submitBtn">Send Message</button></div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
 
@@ -799,6 +838,7 @@ His energy to make things happen was contagious and it helped us achieve great g
 
       </div>
     </section><!-- End Contact Section -->
+
 
 
 
